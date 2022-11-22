@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 440px;
+  padding: 10px 0;
+}
+
+.input {
+  border: 1px solid grey;
+  width: 370px;
+  border-radius: 5px;
+  padding: 5px;
+  color: grey;
+  font-weight: 500;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+  background-color: #f5f5f5;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  width: 50px;
+  background-color: #f5f5f5;
+  color: gray;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 10px rgb(199, 199, 199);
+}
+
+.button:hover {
+  background-color: lightgray;
+}
